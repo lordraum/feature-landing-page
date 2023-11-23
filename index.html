@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huddle landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__box">
+        <div class="logo">
+          <img src="./src/images/logo.svg" alt="site logo" class="logo__img" />
+        </div>
+        <a href="#" class="header__btn">Try it free</a>
+      </div>
+    </header>
+    <main class="main">
+      <section class="banner">
+        <div class="banner__box">
+          <div class="banner__info">
+            <h1 class="banner__title">
+              Build The Community Your Fans Will Love
+            </h1>
+            <p class="banner__text">
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create connections with your users as
+              you engage in genuine discussion.
+            </p>
+            <a class="btn">Get Started For Free</a>
+          </div>
+          <div class="banner__img">
+            <div class="banner__img">
+              <img
+                src="./src/images/illustration-mockups.svg"
+                alt="mockup web"
+                class="banner__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="features__box">
+          <feature-card>
+            <img
+              slot="image"
+              src="./src/images/illustration-grow-together.svg"
+              alt="grow together"
+            />
+            <span slot="title">Grow Together</span>
+            <span slot="text">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </span>
+          </feature-card>
+          <feature-card>
+            <img
+              src="./src/images/illustration-flowing-conversation.svg"
+              alt="flowing conversations"
+              slot="image"
+            />
+            <span slot="title"> Flowing Conversations </span>
+            <span slot="text">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </span>
+          </feature-card>
+          <feature-card>
+            <img
+              src="./src/images/illustration-your-users.svg"
+              alt="Users ulistration"
+              slot="image"
+            />
+            <span slot="title">Your Users</span>
+            <span slot="text">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </span>
+          </feature-card>
+        </div>
+      </section>
+      <article class="cta">
+        <h3 class="cta__title">Ready To Build Your Community?</h3>
+        <a href="#" class="btn">Get Started For Free</a>
+      </article>
+    </main>
+
+    <script defer type="module" src="./src/js/main.js"></script>
+  </body>
+</html>
