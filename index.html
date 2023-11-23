@@ -5,6 +5,12 @@
     <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Huddle landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -88,6 +94,68 @@
         <a href="#" class="btn">Get Started For Free</a>
       </article>
     </main>
+    <footer class="footer">
+      <section class="contact">
+        <div class="logo logo--footer">
+          <img
+            src="./src/images/logo-footer.svg"
+            alt="site logo"
+            class="logo__img"
+          />
+        </div>
+        <div class="contact__items">
+          <contact-item>
+            <img
+              src="./src/images/icon-location.svg"
+              alt="location icon"
+              slot="image"
+            />
+            <p slot="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </contact-item>
+          <contact-item>
+            <img src="./src/images/icon-phone.svg" alt="" slot="image" />
+            <p slot="text">+1-543-123-4567</p>
+          </contact-item>
+          <contact-item>
+            <img src="./src/images/icon-email.svg" alt="" slot="image" />
+            <p slot="text">example@huddle.com</p>
+          </contact-item>
+        </div>
+      </section>
+      <section class="about">
+        <div class="links">
+          <div class="links">
+            <a href="#" class="footer__link">About</a>
+          </div>
+          <div class="links">
+            <a href="#" class="footer__link">What We Do</a>
+          </div>
+          <div class="links">
+            <a href="#" class="footer__link">FAQ</a>
+          </div>
+        </div>
+      </section>
+      <section class="other-links">
+        <div class="links">
+          <a href="#" class="footer__link">Career</a>
+        </div>
+        <div class="links">
+          <a href="#" class="footer__link">Blog</a>
+        </div>
+        <div class="links">
+          <a href="#" class="footer__link">Contact Us</a>
+        </div>
+      </section>
+      <section class="social-copy">
+        <social-icons></social-icons>
+        <div class="copy">
+          &copy; Copyright 2018 Huddle. All rights reserved.
+        </div>
+      </section>
+    </footer>
 
     <script defer type="module" src="./src/js/main.js"></script>
   </body>

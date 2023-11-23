@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  fontawesome-svgs:
+    specifier: 1.0.2
+    version: 1.0.2
   normalize.css:
     specifier: 8.0.1
     version: 8.0.1
@@ -1104,6 +1107,10 @@ packages:
 
   /flatted@3.2.9:
     resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
+    dev: true
+
+  /fontawesome-svgs@1.0.2:
+    resolution: {integrity: sha512-UiOop2JNFpmUOqIFZL780x+Mkyu4lZKu7uHSPNNDpqyw++jmynl/UEhdrOmAF7lVArpFhbH9zKZZ1pBidV+4sA==}
     dev: true
 
   /for-each@0.3.3:
